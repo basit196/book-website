@@ -1,0 +1,516 @@
+/*------------------------------*/
+/*  Reusble Components
+/*------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+html {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+}
+
+section {
+    padding: 75px 0;
+}
+
+
+
+/*------------------------------*/
+/*  Headings      
+/*------------------------------*/
+
+h1 {
+    font-size: 300%;
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 110%;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+
+/*------------------------------*/
+/*  paraghraps     
+/*------------------------------*/
+
+.hero-text-box p {
+    text-align: center;
+    font-size: 80%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+/*------------------------------*/
+/*  Buttons   
+/*------------------------------*/
+
+.hero-text-box a {
+    text-decoration: none;
+    margin-top: 120px;
+    font-weight: 800;
+    color: #000;
+    background-color: #fff;
+    padding: 15px 45px;
+    border-radius: 50px;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.hero-text-box a:hover,
+.hero-text-box a:active {
+    color: #fff;
+    background-color: #000;
+}
+
+
+/*------------------------------*/
+/*  Header part       
+/*------------------------------*/
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(#ff0683, #f54e00);
+
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 19px;
+}
+
+.logo a img {
+    height: 32px;
+    width: auto;
+}
+
+.main-nav {
+    display: inline-block;
+    float: right;
+    text-transform: uppercase;
+}
+
+.main-nav li {
+    float: left;
+    list-style: none;
+    vertical-align: middle;
+    margin-top: 40px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 80%;
+    padding-bottom: 6px;
+    border-bottom: transparent;
+    transition: border-bottom 0.2s;
+
+
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #000;
+}
+
+
+.hero-text-box {
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+.book {
+    height: 600px;
+    width: auto;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+
+/*------------------------------*/
+/*  section 2      
+/*------------------------------*/
+
+
+
+.author {
+    display: inline-block;
+    width: 35%;
+    height: 65%;
+    vertical-align: middle;
+}
+
+.author-text {
+    display: inline-block;
+
+    padding: 12% 5%;
+    width: 60%;
+    vertical-align: middle;
+    margin-left: -70px;
+    box-shadow: 0 10px 30px #eee;
+    z-index: 2;
+    background-color: #fff;
+
+}
+
+.author-text p {
+    word-break: break-all;
+    font-size: 75%;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+
+/*------------------------------*/
+/*  section 3      
+/*------------------------------*/
+
+
+
+.feature-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.795)), url(img/feature.jpeg);
+    height: 60vh;
+    background-size: 170%;
+    background-position: 47% 30%;
+}
+
+.feature-img h1 {
+    font-size: 250%;
+    text-align: center;
+    padding-top: 160px;
+
+}
+
+.feature-img p {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 75%;
+
+}
+
+.num-box h1 {
+    color: rgb(247, 70, 0);
+    padding-top: 55px;
+    padding-right: 20px;
+    font-size: 400%;
+
+}
+
+.num-box {
+    height: 25vh;
+    text-align: center;
+    margin-top: -85px;
+    background-color: #fff;
+    border-radius: 3%;
+    box-shadow: -10px 6px 20px #8b7d7d;
+}
+
+/*------------------------------*/
+/*  section 4      
+/*------------------------------*/
+
+.price-detail h2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 200%;
+    color: rgb(32, 32, 32);
+
+}
+
+.price-detail p {
+    text-align: center;
+    font-size: 80%;
+    word-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+.price-box {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 5%;
+    width: 95%;
+    height: 70vh;
+    box-shadow: 0 3px 5px rgb(179, 178, 178);
+}
+
+.price-box h2 {
+    font-size: 150%;
+    font-weight: 800;
+   margin-top: 65px;
+   margin-bottom: 70px;
+}
+
+.price-box p:first-of-type{
+  font-size: 22px;
+  margin-bottom: 155px;
+  font-weight: 400;
+  color: #4d4d4d;
+}
+
+.price-box p:last-of-type{
+    font-size: 300%;
+    font-weight: bolder;
+    color: #363636;
+    margin-bottom: 65px;
+}
+
+.price-box a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(32, 32, 32);
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 120%;
+    transition: all 0.5s;
+}
+
+.price-box a:hover,
+.price-box a:active{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+
+/*------------------------------*/
+/*  section 5      
+/*------------------------------*/
+
+.section-five{
+    background-image: linear-gradient(#ff0683, #f54e00);
+    height: 60vh;
+    text-align: center;
+    color: #fff;
+}
+
+.download-detail h2{
+    font-size: 200%;
+    margin-top: 35px;   
+}
+
+.download-detail p{
+    margin-top: 60px;
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 81%;
+    margin-bottom: 70px;
+}
+
+
+.buttons{
+    display: inline-block;
+}
+
+
+
+.icon{
+    font-size: 220%;
+}
+
+.button-text{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 30px 10px;
+}
+
+.buttons a{
+       text-decoration: none;
+       color: #000;
+       background-color: #fff;
+       padding: 31px 36px;
+       border-radius: 50px;
+       transition: all 0.2s;
+       margin-right: 20px;
+}
+
+.buttons a i{
+    vertical-align: middle;
+}
+
+.buttons h2{
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.button-text p{
+    text-align: center;
+}
+
+.buttons a:hover,
+.buttons a:active{
+    color: #fff;
+    background-color: #000;
+
+}
+
+
+/*------------------------------*/
+/*  section 6      
+/*------------------------------*/
+
+.reader-heading{
+    text-align: center;
+}
+
+.reader-heading h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 200%;
+    color: rgb(32, 32, 32);
+}
+
+.reader-heading p{
+    text-align: center;
+    font-size: 80%;
+    word-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.review{
+    width: 90%;
+    text-align: center;
+    height: 70vh;
+    box-shadow: 0 3px 5px rgb(179, 178, 178);
+}
+
+.review img{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.review h3{
+    margin: 25px 0;
+    font-size: 160%;
+    text-transform: capitalize;
+}
+
+.review p{
+    font-size: 106%;
+    font-weight: 300;
+    margin: 0 32px;
+    line-height: 1.5;
+}
+
+.review h4{
+    color: rgb(34, 80, 231);
+    text-transform: uppercase;
+    font-size: 115%;
+    font-weight: 200;
+    margin: 20px 20px 10px 20px;
+}
+
+.review h5{
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+/*------------------------------*/
+/*  Footer part       
+/*------------------------------*/
+
+footer{
+   background-color: #000;
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+}
+
+footer h3{
+    text-transform: capitalize;
+    margin: 55px 0 25px 0;
+}
+
+footer p{
+   
+    font-size: 80%;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(153, 152, 152);
+    margin-bottom: 10px;
+}
+
+footer h6{
+    color: #f54e00;
+    font-size: 60%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer input[type="text"]{
+    width: 55%;
+    margin-top: 10px;
+    background: rgb(59, 59, 59);
+    padding: 7px 10px;
+    color: #fff;
+}
+
+footer button{
+ background-image:linear-gradient(#ff0683, #f54e00);
+ padding: 7px 14px;
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+.social-icons a:link{
+   margin-right: 10px;
+   font-size: 150%;
+   text-decoration: none;
+   
+   
+   
+}
+
+.social-icons a i{
+    color: transparent;
+    background: linear-gradient(#ff0683, #f54e00);
+ -webkit-background-clip: text;
+ transition: all 0.2s;
+}
+
+.social-icons a i:hover,
+.social-icons a i:active{
+    color: #8b7d7d;
+    
+}
